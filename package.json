@@ -1,0 +1,29 @@
+{
+  "name": "enmity-plugins",
+  "version": "1.0.0",
+  "description": "Plugins for Emnity",
+  "main": "",
+  "scripts": {
+    "build": "rollup -c --configPlugin esbuild",
+    "serve": "node serve.js",
+    "start": "pnpm run build && pnpm run serve"
+  },
+  "keywords": [
+    "enmity",
+    "plugins"
+  ],
+  "author": "Tiemen",
+  "license": "MIT",
+  "dependencies": {
+    "enmity": "^1.2.4"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "@types/node": "^18.7.18",
+    "esbuild": "^0.15.9",
+    "express": "^4.18.1",
+    "rollup": "^2.79.1",
+    "rollup-plugin-esbuild": "^4.10.1"
+  }
+}

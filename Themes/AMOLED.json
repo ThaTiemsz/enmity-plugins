@@ -1,0 +1,573 @@
+{
+    "name": "AMOLED",
+    "version": "1.0.0",
+    "description": "Discord's AMOLED theme but fixed",
+    "authors": [
+       {
+          "name": "Tiemen",
+          "id": "152164749868662784"
+       }
+    ],
+    "theme_color_map": {
+        "HEADER_PRIMARY": [
+            "#ffffff",
+            "#060607"
+        ],
+        "HEADER_SECONDARY": [
+            "#b9bbbe",
+            "#4f5660"
+        ],
+        "TEXT_NORMAL": [
+            "#dcddde",
+            "#2e3338"
+        ],
+        "TEXT_MUTED": [
+            "#a3a6aa",
+            "#5e6772"
+        ],
+        "TEXT_LINK": [
+            "#00b0f4",
+            "#0067e0"
+        ],
+        "TEXT_LINK_LOW_SATURATION": [
+            "#0fbcff",
+            "#0067e0"
+        ],
+        "TEXT_POSITIVE": [
+            "#46c46d",
+            "#2d7d46"
+        ],
+        "TEXT_WARNING": [
+            "#faa61a",
+            "#93620f"
+        ],
+        "TEXT_DANGER": [
+            "#f38688",
+            "#a12d2f"
+        ],
+        "TEXT_BRAND": [
+            "#949cf7",
+            "#5865f2"
+        ],
+        "INTERACTIVE_NORMAL": [
+            "#b9bbbe",
+            "#4f5660"
+        ],
+        "INTERACTIVE_HOVER": [
+            "#dcddde",
+            "#2e3338"
+        ],
+        "INTERACTIVE_ACTIVE": [
+            "#ffffff",
+            "#060607"
+        ],
+        "INTERACTIVE_MUTED": [
+            "#4f545c",
+            "#c7ccd1"
+        ],
+        "BACKGROUND_PRIMARY": [
+            "#040405",
+            "#ffffff"
+        ],
+        "BACKGROUND_SECONDARY": [
+            "#111315",
+            "#f2f3f5"
+        ],
+        "BACKGROUND_SECONDARY_ALT": [
+            "#18191c",
+            "#ebedef"
+        ],
+        "BACKGROUND_TERTIARY": [
+            "#0c0d0e",
+            "#e3e5e8"
+        ],
+        "BACKGROUND_ACCENT": [
+            "#1b1d20",
+            "#6a7480"
+        ],
+        "BACKGROUND_FLOATING": [
+            "#121315",
+            "#ffffff"
+        ],
+        "BACKGROUND_NESTED_FLOATING": [
+            "#121315",
+            "#ffffff"
+        ],
+        "BACKGROUND_MOBILE_PRIMARY": [
+            "#000000",
+            "#f8f9f9"
+        ],
+        "BACKGROUND_MOBILE_SECONDARY": [
+            "#0c0d0e",
+            "#ffffff"
+        ],
+        "CHAT_BACKGROUND": [
+            "#000000",
+            "#ffffff"
+        ],
+        "CHAT_BORDER": [
+            "#202225",
+            "#dcddde"
+        ],
+        "CHAT_INPUT_CONTAINER_BACKGROUND": [
+            "#36393f",
+            "#ffffff"
+        ],
+        "BACKGROUND_MODIFIER_HOVER": [
+            "hsla(218, 7.9%, 27.3%, 0.4)",
+            "hsla(213, 9.4%, 45.9%, 0.16)"
+        ],
+        "BACKGROUND_MODIFIER_ACTIVE": [
+            "hsla(218, 7.9%, 27.3%, 0.48)",
+            "hsla(213, 9.4%, 45.9%, 0.2)"
+        ],
+        "BACKGROUND_MODIFIER_SELECTED": [
+            "hsla(218, 7.9%, 27.3%, 0.6)",
+            "hsla(213, 9.4%, 45.9%, 0.24)"
+        ],
+        "BACKGROUND_MODIFIER_ACCENT": [
+            "hsla(218, 7.9%, 27.3%, 0.48)",
+            "hsla(213, 9.4%, 45.9%, 0.24)"
+        ],
+        "INFO_POSITIVE_BACKGROUND": [
+            "hsla(139, 47.3%, 43.9%, 0.1)",
+            "hsla(139, 47.4%, 38%, 0.05)"
+        ],
+        "INFO_POSITIVE_FOREGROUND": [
+            "#3ba55c",
+            "#338f50"
+        ],
+        "INFO_POSITIVE_TEXT": [
+            "#ffffff",
+            "#000000"
+        ],
+        "INFO_WARNING_BACKGROUND": [
+            "hsla(38, 95.7%, 54.1%, 0.1)",
+            "hsla(38, 80.9%, 36.9%, 0.1)"
+        ],
+        "INFO_WARNING_FOREGROUND": [
+            "#faa61a",
+            "#aa7112"
+        ],
+        "INFO_WARNING_TEXT": [
+            "#ffffff",
+            "#000000"
+        ],
+        "INFO_DANGER_BACKGROUND": [
+            "hsla(359, 82.6%, 59.4%, 0.1)",
+            "hsla(359, 66.7%, 54.1%, 0.1)"
+        ],
+        "INFO_DANGER_FOREGROUND": [
+            "#ed4245",
+            "#d83c3f"
+        ],
+        "INFO_DANGER_TEXT": [
+            "#ffffff",
+            "#000000"
+        ],
+        "INFO_HELP_BACKGROUND": [
+            "hsla(197, 100%, 47.8%, 0.1)",
+            "hsla(212, 100%, 43.9%, 0.1)"
+        ],
+        "INFO_HELP_FOREGROUND": [
+            "#00b0f4",
+            "#0067e0"
+        ],
+        "INFO_HELP_TEXT": [
+            "#ffffff",
+            "#000000"
+        ],
+        "STATUS_POSITIVE_BACKGROUND": [
+            "#2d7d46",
+            "#2d7d46"
+        ],
+        "STATUS_POSITIVE_TEXT": [
+            "#ffffff",
+            "#ffffff"
+        ],
+        "STATUS_WARNING_BACKGROUND": [
+            "#faa61a",
+            "#aa7112"
+        ],
+        "STATUS_WARNING_TEXT": [
+            "#000000",
+            "#ffffff"
+        ],
+        "STATUS_DANGER_BACKGROUND": [
+            "#ed4245",
+            "#d83c3f"
+        ],
+        "STATUS_DANGER_TEXT": [
+            "#ffffff",
+            "#ffffff"
+        ],
+        "STATUS_DANGER": [
+            "#ed4245",
+            "#d83c3f"
+        ],
+        "STATUS_POSITIVE": [
+            "#3ba55c",
+            "#338f50"
+        ],
+        "STATUS_WARNING": [
+            "#faa61a",
+            "#aa7112"
+        ],
+        "BUTTON_DANGER_BACKGROUND": [
+            "#d83c3f",
+            "#d83c3f"
+        ],
+        "BUTTON_DANGER_BACKGROUND_HOVER": [
+            "#a12d2f",
+            "#a12d2f"
+        ],
+        "BUTTON_DANGER_BACKGROUND_ACTIVE": [
+            "#8c2729",
+            "#8c2729"
+        ],
+        "BUTTON_DANGER_BACKGROUND_DISABLED": [
+            "#d83c3f",
+            "#d83c3f"
+        ],
+        "BUTTON_POSITIVE_BACKGROUND": [
+            "#2d7d46",
+            "#2d7d46"
+        ],
+        "BUTTON_POSITIVE_BACKGROUND_HOVER": [
+            "#215b32",
+            "#215b32"
+        ],
+        "BUTTON_POSITIVE_BACKGROUND_ACTIVE": [
+            "#1e532e",
+            "#1e532e"
+        ],
+        "BUTTON_POSITIVE_BACKGROUND_DISABLED": [
+            "#2d7d46",
+            "#2d7d46"
+        ],
+        "BUTTON_SECONDARY_BACKGROUND": [
+            "#4f545c",
+            "#6a7480"
+        ],
+        "BUTTON_SECONDARY_BACKGROUND_HOVER": [
+            "#686d73",
+            "#4f5660"
+        ],
+        "BUTTON_SECONDARY_BACKGROUND_ACTIVE": [
+            "#72767d",
+            "#444b53"
+        ],
+        "BUTTON_SECONDARY_BACKGROUND_DISABLED": [
+            "#4f545c",
+            "#6a7480"
+        ],
+        "BUTTON_OUTLINE_DANGER_TEXT": [
+            "#ffffff",
+            "#000000"
+        ],
+        "BUTTON_OUTLINE_DANGER_BORDER": [
+            "#ed4245",
+            "#d83c3f"
+        ],
+        "BUTTON_OUTLINE_DANGER_BACKGROUND": [
+            "hsla(0, 0%, 100%, 0)",
+            "hsla(0, 0%, 100%, 0)"
+        ],
+        "BUTTON_OUTLINE_DANGER_BACKGROUND_HOVER": [
+            "#d83c3f",
+            "#d83c3f"
+        ],
+        "BUTTON_OUTLINE_DANGER_TEXT_HOVER": [
+            "#ffffff",
+            "#ffffff"
+        ],
+        "BUTTON_OUTLINE_DANGER_BORDER_HOVER": [
+            "#d83c3f",
+            "#d83c3f"
+        ],
+        "BUTTON_OUTLINE_DANGER_BACKGROUND_ACTIVE": [
+            "#c03538",
+            "#c03538"
+        ],
+        "BUTTON_OUTLINE_DANGER_TEXT_ACTIVE": [
+            "#ffffff",
+            "#ffffff"
+        ],
+        "BUTTON_OUTLINE_DANGER_BORDER_ACTIVE": [
+            "#d83c3f",
+            "#d83c3f"
+        ],
+        "BUTTON_OUTLINE_POSITIVE_TEXT": [
+            "#ffffff",
+            "#000000"
+        ],
+        "BUTTON_OUTLINE_POSITIVE_BORDER": [
+            "#3ba55c",
+            "#338f50"
+        ],
+        "BUTTON_OUTLINE_POSITIVE_BACKGROUND": [
+            "hsla(0, 0%, 100%, 0)",
+            "hsla(0, 0%, 100%, 0)"
+        ],
+        "BUTTON_OUTLINE_POSITIVE_BACKGROUND_HOVER": [
+            "#2d7d46",
+            "#2d7d46"
+        ],
+        "BUTTON_OUTLINE_POSITIVE_TEXT_HOVER": [
+            "#ffffff",
+            "#ffffff"
+        ],
+        "BUTTON_OUTLINE_POSITIVE_BORDER_HOVER": [
+            "#2d7d46",
+            "#2d7d46"
+        ],
+        "BUTTON_OUTLINE_POSITIVE_BACKGROUND_ACTIVE": [
+            "#215b32",
+            "#215b32"
+        ],
+        "BUTTON_OUTLINE_POSITIVE_TEXT_ACTIVE": [
+            "#ffffff",
+            "#ffffff"
+        ],
+        "BUTTON_OUTLINE_POSITIVE_BORDER_ACTIVE": [
+            "#215b32",
+            "#215b32"
+        ],
+        "BUTTON_OUTLINE_BRAND_TEXT": [
+            "#ffffff",
+            "#000000"
+        ],
+        "BUTTON_OUTLINE_BRAND_BORDER": [
+            "#5865f2",
+            "#5865f2"
+        ],
+        "BUTTON_OUTLINE_BRAND_BACKGROUND": [
+            "hsla(0, 0%, 100%, 0)",
+            "hsla(0, 0%, 100%, 0)"
+        ],
+        "BUTTON_OUTLINE_BRAND_BACKGROUND_HOVER": [
+            "#5865f2",
+            "#5865f2"
+        ],
+        "BUTTON_OUTLINE_BRAND_TEXT_HOVER": [
+            "#ffffff",
+            "#ffffff"
+        ],
+        "BUTTON_OUTLINE_BRAND_BORDER_HOVER": [
+            "#5865f2",
+            "#5865f2"
+        ],
+        "BUTTON_OUTLINE_BRAND_BACKGROUND_ACTIVE": [
+            "#4752c4",
+            "#4752c4"
+        ],
+        "BUTTON_OUTLINE_BRAND_TEXT_ACTIVE": [
+            "#ffffff",
+            "#ffffff"
+        ],
+        "BUTTON_OUTLINE_BRAND_BORDER_ACTIVE": [
+            "#4752c4",
+            "#4752c4"
+        ],
+        "BUTTON_OUTLINE_PRIMARY_TEXT": [
+            "#ffffff",
+            "#000000"
+        ],
+        "BUTTON_OUTLINE_PRIMARY_BORDER": [
+            "#4f545c",
+            "#6a7480"
+        ],
+        "BUTTON_OUTLINE_PRIMARY_BACKGROUND": [
+            "hsla(0, 0%, 100%, 0)",
+            "hsla(0, 0%, 100%, 0)"
+        ],
+        "BUTTON_OUTLINE_PRIMARY_BACKGROUND_HOVER": [
+            "#4f545c",
+            "#6a7480"
+        ],
+        "BUTTON_OUTLINE_PRIMARY_TEXT_HOVER": [
+            "#ffffff",
+            "#ffffff"
+        ],
+        "BUTTON_OUTLINE_PRIMARY_BORDER_HOVER": [
+            "#4f545c",
+            "#6a7480"
+        ],
+        "BUTTON_OUTLINE_PRIMARY_BACKGROUND_ACTIVE": [
+            "#686d73",
+            "#4f5660"
+        ],
+        "BUTTON_OUTLINE_PRIMARY_TEXT_ACTIVE": [
+            "#ffffff",
+            "#ffffff"
+        ],
+        "BUTTON_OUTLINE_PRIMARY_BORDER_ACTIVE": [
+            "#686d73",
+            "#4f5660"
+        ],
+        "MODAL_BACKGROUND": [
+            "#0c0d0e",
+            "#ffffff"
+        ],
+        "MODAL_FOOTER_BACKGROUND": [
+            "#2f3136",
+            "#f2f3f5"
+        ],
+        "SCROLLBAR_THIN_THUMB": [
+            "#202225",
+            "hsla(217, 7.6%, 33.5%, 0.3)"
+        ],
+        "SCROLLBAR_THIN_TRACK": [
+            "hsla(0, 0%, 0%, 0)",
+            "hsla(0, 0%, 0%, 0)"
+        ],
+        "SCROLLBAR_AUTO_THUMB": [
+            "#36393f",
+            "#cccccc"
+        ],
+        "SCROLLBAR_AUTO_TRACK": [
+            "#111315",
+            "#f2f2f2"
+        ],
+        "SCROLLBAR_AUTO_SCROLLBAR_COLOR_THUMB": [
+            "#202225",
+            "#e3e5e8"
+        ],
+        "SCROLLBAR_AUTO_SCROLLBAR_COLOR_TRACK": [
+            "#2f3136",
+            "#f2f3f5"
+        ],
+        "INPUT_BACKGROUND": [
+            "#202225",
+            "#e3e5e8"
+        ],
+        "INPUT_PLACEHOLDER_TEXT": [
+            "#87898c",
+            "#5e6772"
+        ],
+        "LOGO_PRIMARY": [
+            "#ffffff",
+            "#5865f2"
+        ],
+        "FOCUS_PRIMARY": [
+            "#00b0f4",
+            "#00b0f4"
+        ],
+        "CONTROL_BRAND_FOREGROUND": [
+            "#949cf7",
+            "#5865f2"
+        ],
+        "CONTROL_BRAND_FOREGROUND_NEW": [
+            "#949cf7",
+            "#5865f2"
+        ],
+        "BACKGROUND_MENTIONED": [
+            "hsla(38, 95.7%, 54.1%, 0.1)",
+            "hsla(38, 95.7%, 54.1%, 0.1)"
+        ],
+        "BACKGROUND_MENTIONED_HOVER": [
+            "hsla(38, 95.7%, 54.1%, 0.08)",
+            "hsla(38, 95.7%, 54.1%, 0.2)"
+        ],
+        "BACKGROUND_MESSAGE_HOVER": [
+            "hsla(240, 11.1%, 1.8%, 0.07)",
+            "hsla(240, 7.7%, 2.5%, 0.02)"
+        ],
+        "BACKGROUND_MESSAGE_AUTOMOD": [
+            "hsla(359, 82.6%, 59.4%, 0.05)",
+            "hsla(359, 82.6%, 59.4%, 0.05)"
+        ],
+        "BACKGROUND_MESSAGE_AUTOMOD_HOVER": [
+            "hsla(359, 82.6%, 59.4%, 0.1)",
+            "hsla(359, 82.6%, 59.4%, 0.1)"
+        ],
+        "BACKGROUND_MESSAGE_HIGHLIGHT": [
+            "hsla(235, 86.1%, 77.5%, 0.08)",
+            "hsla(235, 86.1%, 77.5%, 0.1)"
+        ],
+        "BACKGROUND_MESSAGE_HIGHLIGHT_HOVER": [
+            "hsla(235, 86.1%, 77.5%, 0.06)",
+            "hsla(235, 86.1%, 77.5%, 0.2)"
+        ],
+        "CHANNELS_DEFAULT": [
+            "#96989d",
+            "#5e6772"
+        ],
+        "CHANNEL_ICON": [
+            "#8e9297",
+            "#6a7480"
+        ],
+        "CHANNEL_TEXT_AREA_PLACEHOLDER": [
+            "#72767d",
+            "#747f8d"
+        ],
+        "CHANNELTEXTAREA_BACKGROUND": [
+            "#18191c",
+            "#ebedef"
+        ],
+        "ACTIVITY_CARD_BACKGROUND": [
+            "#202225",
+            "#ffffff"
+        ],
+        "TEXTBOX_MARKDOWN_SYNTAX": [
+            "#8e9297",
+            "#6a7480"
+        ],
+        "SPOILER_REVEALED_BACKGROUND": [
+            "#292b2f",
+            "#ebedef"
+        ],
+        "SPOILER_HIDDEN_BACKGROUND": [
+            "#202225",
+            "#e3e5e8"
+        ],
+        "ANDROID_NAVIGATION_BAR_BACKGROUND": [
+            "#121315",
+            "#f8f9f9"
+        ],
+        "ANDROID_RIPPLE": [
+            "hsla(0, 0%, 100%, 0.07)",
+            "hsla(0, 0%, 0%, 0.12)"
+        ],
+        "DEPRECATED_CARD_BG": [
+            "hsla(216, 7.2%, 13.5%, 0.6)",
+            "#f8f9f9"
+        ],
+        "DEPRECATED_CARD_EDITABLE_BG": [
+            "hsla(216, 7.2%, 13.5%, 0.3)",
+            "hsla(240, 5.9%, 96.7%, 0.6)"
+        ],
+        "DEPRECATED_STORE_BG": [
+            "#36393f",
+            "#f8f9f9"
+        ],
+        "DEPRECATED_QUICKSWITCHER_INPUT_BACKGROUND": [
+            "#72767d",
+            "#ffffff"
+        ],
+        "DEPRECATED_QUICKSWITCHER_INPUT_PLACEHOLDER": [
+            "hsla(0, 0%, 100%, 0.3)",
+            "hsla(217, 7.6%, 33.5%, 0.3)"
+        ],
+        "DEPRECATED_TEXT_INPUT_BG": [
+            "#202225",
+            "#e3e5e8"
+        ],
+        "DEPRECATED_TEXT_INPUT_BORDER": [
+            "hsla(0, 0%, 0%, 0.3)",
+            "hsla(217, 7.6%, 33.5%, 0.3)"
+        ],
+        "DEPRECATED_TEXT_INPUT_BORDER_HOVER": [
+            "#040405",
+            "#b9bbbe"
+        ],
+        "DEPRECATED_TEXT_INPUT_BORDER_DISABLED": [
+            "#202225",
+            "#dcddde"
+        ],
+        "DEPRECATED_TEXT_INPUT_PREFIX": [
+            "#dcddde",
+            "#b9bbbe"
+        ]
+    }
+}

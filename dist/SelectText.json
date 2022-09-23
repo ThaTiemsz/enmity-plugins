@@ -1,0 +1,6 @@
+{
+	"name": "SelectText",
+	"description": "Adds an message action sheet option for selecting text",
+	"author": "Tiemen",
+	"version": "2.0.0"
+}

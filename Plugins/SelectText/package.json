@@ -1,0 +1,9 @@
+{
+    "name": "select-text",
+    "description": "Adds an message action sheet option for selecting text",
+    "author": {
+        "name": "Tiemen",
+        "id": "152164749868662784"
+    },
+    "version": "2.0.0"
+  }
