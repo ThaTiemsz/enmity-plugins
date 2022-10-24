@@ -6,8 +6,8 @@ app.get("/", (req, res) => {
     res.send("Hello World!")
 })
 
-app.use('/Plugins', express.static("dist"))
-app.use(express.static("Themes"))
+app.use("/Plugins", express.static("dist"))
+app.use("/Themes", express.static("Themes"))
 
 app.listen(PORT, () => {
     console.log(`Listening on port ${PORT}\nhttp://localhost:${PORT}`)

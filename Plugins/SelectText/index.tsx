@@ -1,5 +1,5 @@
 import { getIDByName } from "enmity/api/assets"
-import { Modal, Text, View } from "enmity/components"
+import { Form, Modal, Text, View, FormText, Alert } from "enmity/components"
 import { Plugin, registerPlugin } from "enmity/managers/plugins"
 import { getByProps } from "enmity/metro"
 import { React } from "enmity/metro/common"
@@ -10,7 +10,7 @@ const Opener = getByProps("openLazy")
 
 const SelectTextPlugin: Plugin = {
     name: "SelectTextPlugin",
-    description: "Adds an message action sheet option for selecting text",
+    description: "Adds a message action sheet option for selecting text",
     version: "1.0.0",
     authors: [{
         name: "Tiemen",
@@ -29,23 +29,29 @@ const SelectTextPlugin: Plugin = {
                         return original
 
                     const ButtonRow = original.props.children.props.children.props.children[1][0].type
+                    // const SelectTextSheet = () => (
+                    //     <View>
+                    //         <View>
+                    //             <Text>{message.content}</Text>
+                    //         </View>
+                    //     </View>
+                    // )
+                    const SelectTextSheet = () => {
+                        Alert.prompt("Select Text", "can't set default value ;(")
+                    }
                     const button = (
                         <ButtonRow
                             key="69"
+                            message="Select Text"
+                            iconSource={getIDByName("ic_all_24px")}
                             onPressRow={(_) => {
                                 Opener.hideActionSheet()
                                 Opener.openLazy(
-                                        <View>
-                                        <View>
-                                            <Text>Hello World!</Text>
-                                        </View>
-                                    </View>,
+                                    Promise.resolve().then(() => SelectTextSheet()),
                                     "SelectTextModal",
-                                    {},
+                                    undefined,
                                 )
                             }}
-                            message="Select Text"
-                            iconSource={getIDByName("ic_all_24px")}
                         />
                     )
                     original.props.children.props.children.props.children[1].unshift(button)
